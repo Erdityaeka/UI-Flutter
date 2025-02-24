@@ -5,7 +5,8 @@ import 'package:profile/pages/Navigation/firstscreen.dart';
 import 'package:profile/pages/Resposif%20Layout/LayoutBuilder.dart';
 import 'package:profile/pages/Resposif%20Layout/MediaQuery.dart';
 import 'package:profile/pages/Resposif%20Layout/resposive_layout.dart';
-import 'package:profile/project/main_screen.dart';
+import 'package:profile/pages/button/Button.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white, // Warna teks dan ikon AppBar
         ),
       ),
-      home: MainSAcreen(),
+      home: buttonscren(),
     );
   }
 }
